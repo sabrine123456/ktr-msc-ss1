@@ -27,7 +27,7 @@ public class Main {
 		mage . moveBack () ;
 		mage . moveForward () ;
 	Warrior war = new Warrior("Sabrine");
-	Mage mage = new Mage("Sabrina") ;
+	Mage mage1 = new Mage("Sabrina") ;
 	try {
 		war.tryToAttack("");
 	} catch (WeaponException e) {
